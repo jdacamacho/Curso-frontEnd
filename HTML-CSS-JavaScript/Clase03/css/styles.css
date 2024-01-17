@@ -1,0 +1,29 @@
+h1{
+    color: #023e8a;
+    padding: 5px;
+    margin: auto 50px;
+    text-align: center;
+}
+
+p{
+    color: #caf0f8;
+    background-color: #03045e;
+    padding: 15px;
+    border: 10px solid #023e8a;
+    margin: auto 50px;
+    text-align: center;
+    /*
+    Top Right Bottom left
+    margin: 20px 20px 20px 20px;
+    Top Right-Left Bottom
+    margin:20px 20px 20px
+    Top-Bottom Right-Left
+    margin: 20px 20px
+
+    */
+}
+
+img{
+    margin: 20px 40%;
+    border-radius: 60px;
+}
