@@ -1,0 +1,29 @@
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: center;
+}
+
+caption{
+    color: #023047;
+    font-family: 'Trocchi',serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th{
+    color: #8ecae6;
+    background-color: #023047 ;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
