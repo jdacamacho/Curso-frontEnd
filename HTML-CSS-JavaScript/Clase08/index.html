@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form method="post">
+        <hr>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"
+            placeholder="Digite su nombre" required="true">
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" 
+            placeholder="Digite su apellido" required="true">
+        <br>
+        <label for="contraseña">Password:</label>
+        <input type="password" name="password" id="password"
+            required="true">
+        <br>
+        <label for="email">Correo electronico:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" step="any">
+        <br>
+        <label for="genero">Genero:</label>
+        <br>
+        <label for="femenino">Femenino:</label>
+        <input type="radio" name="femenino" id="femenino" value="femenino">
+        <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="masculino" id="masculino" value="masculino">
+        <br>
+        <input type="submit" value="Enviar">
+        <hr>
+    </form>
+</body>
+</html>
