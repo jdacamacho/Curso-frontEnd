@@ -7,36 +7,61 @@
 </head>
 <body>
     <h1>Formularios en HTML</h1>
-    <form method="post">
-        <hr>
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre"
-            placeholder="Digite su nombre" required="true">
-        <br>
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido" 
-            placeholder="Digite su apellido" required="true">
-        <br>
-        <label for="contraseña">Password:</label>
-        <input type="password" name="password" id="password"
-            required="true">
-        <br>
-        <label for="email">Correo electronico:</label>
-        <input type="email" name="email" id="email">
-        <br>
-        <label for="edad">Edad:</label>
-        <input type="number" name="edad" id="edad" step="any">
-        <br>
-        <label for="genero">Genero:</label>
-        <br>
-        <label for="femenino">Femenino:</label>
-        <input type="radio" name="femenino" id="femenino" value="femenino">
-        <br>
-        <label for="masculino">Masculino</label>
-        <input type="radio" name="masculino" id="masculino" value="masculino">
-        <br>
-        <input type="submit" value="Enviar">
-        <hr>
+    <form action="" method="" autocomplete="off">
+        <fieldset>
+            <legend>Datos personales:</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"
+                placeholder="Digite su nombre" required="true">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" 
+                placeholder="Digite su apellido" required="true">
+            <br>
+            <label for="contraseña">Password:</label>
+            <input type="password" name="password" id="password"
+                required="true">
+            <br>
+            <label for="email">Correo electronico:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" step="any">
+            <br>
+            <label for="genero">Genero:</label>
+            <br>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label for="femenino">Femenino:</label>
+            <br>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+            <br>
+            <label>Seleccione genero musical:</label>
+            <br>
+            <input type="checkbox" id="clasica" name="musica">
+            <label for="clasica">Clasica</label>
+            <br>
+            <input type="checkbox" id="rock" name="musica">
+            <label for="rock">Rock</label>
+            <br>
+            <label for="autos">Seleccione tipo de auto:</label>
+            <br>
+            <select name="autos" id="autos">
+                <option value="">--- Seleccione una opción ---</option>
+                <option value="Nissan">Nissan</option>
+                <option value="bmw">BMW</option>
+                <option value="Audi">Audi</option>
+            </select>
+            <br>
+            <label for="comentario">Escriba sus comentarios:</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escriba sus comentarios aqui"></textarea>
+            <br>
+            <input type="reset" value="Restablecer">
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
     </form>
 </body>
 </html>
