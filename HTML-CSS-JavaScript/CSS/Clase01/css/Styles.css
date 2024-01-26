@@ -1,0 +1,23 @@
+*{
+    padding: 15px;
+    border: 2px solid black;
+}
+
+body{
+    background-color: gray;
+}
+
+#titulo{
+    color: red;
+    text-align: center;
+}
+
+p.centrar{
+    text-align: center;
+}
+
+.fuente{
+    color: white;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
