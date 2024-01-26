@@ -1,0 +1,18 @@
+#titulo{
+    text-align: center;
+}
+
+.contenido{
+    background-color: black;
+    border-radius: 20px 0px 20px 0px;
+    /*outline: 5px solid red;
+    outline-offset: 10px;*/
+}
+
+p.fuente{
+    color: white;
+    padding: 5px;
+    margin: 0px auto;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
