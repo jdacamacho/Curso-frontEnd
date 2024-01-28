@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+div.contenedor{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto;
+}
+
+.imagen{
+    width: 100%;
+    opacity: .2;
+}
+
+div.centro{
+    position: absolute;
+    top: 50%;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
