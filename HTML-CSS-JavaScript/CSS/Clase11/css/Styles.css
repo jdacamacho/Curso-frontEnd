@@ -1,0 +1,24 @@
+/*html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    background: linear-gradient( to right,#f72585,#3a0ca3,white);
+    color: white;
+}*/
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px grey;
+}

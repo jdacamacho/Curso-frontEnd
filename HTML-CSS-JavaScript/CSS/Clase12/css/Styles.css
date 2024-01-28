@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+    color: red;
+}
+
+div.contenedor{
+    display: flex;
+    background-color: red;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: flex-start;
+    /*vertical*/
+    align-content: center;
+}
+
+div.contenedor > p{
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px orange;
+}
