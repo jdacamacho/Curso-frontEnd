@@ -1,0 +1,15 @@
+h1, div ,p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+a{
+    display: block;
+}
+
+li{
+    display: inline;
+}

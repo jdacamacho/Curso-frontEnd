@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+
+.centrar-div{
+    max-width: 400px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+.posicionamiento-estatico{
+    max-width: 400px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+.posicionamiento-relativo{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    max-width: 400px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+.posicionamiento-fix{
+    position: fixed;
+    border: 3px solid black;
+    top:0;
+    right: 0;
+}
+
+.padre{
+    position: relative;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+/*Se ajusta de acuerdo a un padre*/
+.posicionamiento-absoluto{
+    position: absolute;
+    border: 3px solid black;
+    bottom: 0;
+    right: 0;
+}
+
+.posicionamiento-sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border: 3px solid black;
+}
