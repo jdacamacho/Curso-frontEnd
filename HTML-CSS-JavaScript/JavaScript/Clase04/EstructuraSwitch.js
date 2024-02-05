@@ -1,4 +1,4 @@
-let mes = 4;
+let mes = 10;
 let estacion = "Estacion desconocida";
 
 switch(mes){
