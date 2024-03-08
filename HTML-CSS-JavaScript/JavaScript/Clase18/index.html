@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="entrar()">
+    <!--
+        <h1 id="miTitulo"> Titulo</h1>
+
+        <script>
+            document.getElementById('miTitulo').onclick = cambiarTexto;
+            function cambiarTexto(){
+                document.getElementById('miTitulo').innerHTML = "Nuevo titulo"
+            }
+    </script>
+    -->
+
+    <!--
+        <div id="espacio">
+
+        </div>
+
+        <script>
+            function entrar(){
+                alert("Entrando a la pagina web");
+                let texto = 'Cookies Inhabilitadas';
+                if(navigator.cookieEnabled){
+                    texto = 'Cookies habilitadas';
+                }
+                document.getElementById('espacio').innerHTML = texto
+            }
+        </script>
+    -->
+
+    <!--
+        Nombre : <input type="text" id="nombre" onchange="convertir(this)">
+    
+        <script>
+            function convertir(nombreInput){
+                nombreInput.value = nombreInput.value.toUpperCase();
+            }
+        </script>
+    -->
+
+    <!--
+        <h1 id="titulo" onmouseover="rojo(this)" onmouseout="azul(this)">
+            Mi titulo
+        </h1>
+        <script>
+            function rojo(titulo){
+                titulo.style.color = 'red';
+            }
+
+            function azul(titulo){
+                titulo.style.color = "blue";
+            }
+        </script>
+    -->
+
+    <!--
+        Nombre: <input type="text" onfocus="cambiar(this)" onblur="regresar(this)">
+        <script>
+            function cambiar(elementoInput){
+                elementoInput.style.background = 'yellow';
+            }
+
+            function regresar(elementoInput){
+                elementoInput.style.background = 'white';
+            }
+        </script>
+    -->
+
+    <!--
+        Nombre: <input type="text" id="nombre">
+        <script>
+            document.getElementById('nombre').addEventListener('focus',cambiar);
+            document.getElementById('nombre').addEventListener('blur',regresar);
+
+            function cambiar(evento){
+                let componente = evento.target;
+                componente.style.background = 'yellow';
+            }
+
+            function regresar(evento){
+                let componente = evento.target;
+                componente.style.background = 'white';
+            }
+        </script>
+    -->
+
+    <!--
+        Nombre: <input type="text" id="nombre">
+        <script>
+            document.getElementById('nombre').addEventListener('focus',(evento) =>{
+                evento.target.style.background = 'yellow';
+            });
+            document.getElementById('nombre').addEventListener('blur',(evento) =>{
+                evento.target.style.background = 'white';
+            });
+        </script>
+    -->
+    
+    <form id='formulario'>
+        Nombre: <input type="text" id="nombre">
+        <br>
+        Apellido: <input type="text" id="apellido">
+    </form>
+
+    <script>
+        const miFormulario = document.getElementById('formulario');
+
+        miFormulario.addEventListener('focus',(evento) =>{
+            evento.target.style.background = 'pink';
+        },true);
+
+        miFormulario.addEventListener('blur',(evento) =>{
+            evento.target.style.background = 'white';
+        },true);
+    </script>
+    
+</body>
+</html>
